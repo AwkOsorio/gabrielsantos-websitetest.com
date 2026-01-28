@@ -1,0 +1,304 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:  Agency FB;
+	padding: 0;
+	background-color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+}
+
+body a {
+	text-decoration: none;
+}
+
+nav {
+	padding: 10px;
+	border-bottom: solid 3px #026ee0;
+	justify-content: space-between;
+	text-align: center;
+	background-image: url(background1.jpg);
+	font-weight: 500px;
+}
+
+nav ul {
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	display: flex;
+}
+
+nav ul li {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	transition: transform 0.7s ease;
+}
+
+nav ul li:hover {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	transform: translateY(-9px);
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	transition: transform 0.3s ease;
+}
+
+nav ul li a:hover {
+	transform: translateY(-9px);
+}
+
+.logo {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	text-decoration: none;
+}
+
+.hero {
+	text-align: center;
+	padding-top: 70px;
+	background-image: url("background2.jpg");
+	padding-bottom: 190px;
+	color: white;
+	text-shadow: 0px 3px rgba(0, 0, 256, 0.50);
+	text-decoration: none;
+}
+
+.page1 {
+	padding-top: 40px; 
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.shop-btn {
+	background-color: #058387;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 70px;
+	list-style: none;
+	border: none;
+	color: white;
+	border-radius: 10%;
+	transition: transform 0.3s ease;
+}
+
+.shop-btn a {
+	text-decoration: none;
+	color: white;
+}
+
+.shop-btn:hover {
+	transform: translateY(-8px);
+	box-shadow: 0px 5px 5px rgba(0, 0, 256, 0.279);
+}
+
+.container{
+	text-align: center;
+	padding-top: 50px;
+	text-decoration: none;
+	color: white;
+	background-color: #212121;
+}
+
+.last {
+	background-color: #4f4f4f;
+	color: white;
+	padding-top: 40px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  font-family: sans-serif;
+  background-image: url(background4.png);
+}
+
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+}
+
+
+.image-placeholder {
+  background-color: #e0e0e0;
+  background-image: url(cpu1.jpg);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  height: 300px;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: black;
+}
+
+.price {
+  color: black	;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background: transparent;
+  border: 1px solid #5680a8;
+  color: #5680a8;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background: #0075f2;
+  color: white;
+}
+
+.image-placeholder2 {
+  background-color: #e0e0e0;
+  background-image: url(gpu2.jpg);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  height: 300px;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.image-placeholder3 {
+  background-color: #e0e0e0;
+  background-image: url(ram1.jpg);
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  margin: auto;
+  padding: auto;
+  max-width: 100%;
+  height: 300px;
+}
+
+.login-card {
+  background: transparent;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;	
+  text-align: center;
+  box-shadow: 0px 0px 16px rgba(0, 0, 256, 0.5);
+  align-items: center;
+  justify-content: center;
+  margin-left: 466px;
+  margin-right: 400px;
+  display: flex;
+ }
+
+input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 17px;
+  box-sizing: border-box;
+  outline: none;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+
+.login-btn {
+  width: 100%;
+  background-color: #026ee0;	
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+        }
+
+.login-btn:hover {
+  background: transparent;
+  border: 1px solid #5680a8;
+  color: #026ee0;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+ }
+
+.forgot-pass {
+	font-weight: bold;
+	transition: transform 0.3s ease;
+	color: white;
+}
+
+.forgot-pass:hover {
+	transform: translateY(-3px);
+	color: white;
+}
+
+footer {
+	background-image: url(background5.jpg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.back-btn-1 {
+	position: fixed;
+	margin-top: 600px;
+	margin-left: 600px;
+	padding: 10px;
+	font-family: Agency FB;	
+}
